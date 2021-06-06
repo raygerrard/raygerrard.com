@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
-import EmailIcon from '@material-ui/icons/Email';
-import PhoneIphoneIcon from '@material-ui/icons/PhoneIphone';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 const transition = {
     duration: 1,
@@ -25,12 +24,8 @@ const Contact = () => {
                     </h1>
 
                     <p className="mb-4">
-                        <EmailIcon style={{ color: '#fff' }} />
-                        <span className="text-white ml-8">ray@uiinfinity.com</span>
-                    </p>
-                    <p>
-                        <PhoneIphoneIcon style={{ color: '#fff' }} />
-                        <span className="text-white ml-8">07512081501</span>
+                        <LinkedInIcon style={{ color: '#fff' }} />
+                        <a href="https://www.linkedin.com/in/raygerrard/" target="_blank" className="text-white ml-8" rel="noreferrer">linkedin.com/in/raygerrard</a>
                     </p>
                 </div>
             </motion.div>
