@@ -9,7 +9,7 @@ export const App = () => (
     <Router>
         <div className="flex p-4 flex-col h-full bg-black">
             <Navigation />
-            <div className="flex-1 overflow-y-auto">
+            <div className="flex-1 overflow-y-auto overflow-x-hidden">
                 <Switch>
                     <Route
                         render={({ location }) => (
