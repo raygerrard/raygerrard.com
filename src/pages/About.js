@@ -14,11 +14,11 @@ const backVariants = {
 
 const About = () => {
     return (
-        <motion.div className="h-full justify-center lg:items-center lg:content-center flex single" initial="exit" animate="enter" exit="exit">
+        <motion.div className="h-full flex single" initial="exit" animate="enter" exit="exit">
             <motion.div className="back" variants={backVariants}>
                 <div className="h-full">
                     <div className="container mx-auto max-w-2xl">
-                        <img src={me} alt="Ray Gerrard" className="w-60 mx-auto border-8 mb-8 rounded-full" />
+                        <img src={me} alt="Ray Gerrard" className="w-32 sm:w-60 mx-auto border-8 mb-8 rounded-full" />
 
                         <h1 className="text-sans tracking-widest text-4xl text-white uppercase font-extralight mb-8 text-center">
                             Hi, I'm <span className="text-green font-bold">Ray Gerrard</span>.<br />
@@ -38,7 +38,9 @@ const About = () => {
                                 or
                                 <span className="inline-block w-10 h-1 ml-4 bg-white"></span>
                             </div>
-                            <a href="/cv.pdf" className="text-white underline">download cv</a>
+                            <motion.div className="inline-block" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+                                <a href="/cv.pdf" className="text-white underline">download cv</a>
+                            </motion.div>
                         </div>
                     </div>
                 </div>
