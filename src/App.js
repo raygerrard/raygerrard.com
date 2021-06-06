@@ -7,9 +7,9 @@ import { Navigation } from "./components/Navigation";
 
 export const App = () => (
     <Router>
-        <div className="flex p-4 flex-col h-full overflow-y-auto overflow-x-hidden">
+        <div className="min-h-screen flex p-4 flex-col h-full overflow-y-scroll overflow-x-hidden">
             <Navigation />
-            <div className="flex-1">
+            <div className="flex flex-1 items-center justify-center">
                 <Switch>
                     <Route
                         render={({ location }) => (
