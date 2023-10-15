@@ -38,9 +38,6 @@ const About = () => {
                                 or
                                 <span className="inline-block w-10 h-1 ml-4 bg-white"></span>
                             </div>
-                            <motion.div className="inline-block" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                                <a href="/cv.pdf" className="text-white underline">download cv</a>
-                            </motion.div>
                         </div>
                     </div>
                 </div>
