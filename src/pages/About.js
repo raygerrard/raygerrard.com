@@ -33,11 +33,6 @@ const About = () => {
                                     </div>
                                 </Link>
                             </motion.div>
-                            <div className="text-white my-2 font-bold italic">
-                                <span className="inline-block w-10 h-1 mr-4 bg-white"></span>
-                                or
-                                <span className="inline-block w-10 h-1 ml-4 bg-white"></span>
-                            </div>
                         </div>
                     </div>
                 </div>
